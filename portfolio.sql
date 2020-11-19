@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 19, 2020 at 03:50 PM
+-- Generation Time: Nov 19, 2020 at 04:00 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -86,9 +86,9 @@ CREATE TABLE `admin_users` (
 --
 
 INSERT INTO `admin_users` (`id`, `first_name`, `last_name`, `email`, `password`, `remember_token`, `activated`, `forbidden`, `language`, `deleted_at`, `created_at`, `updated_at`, `last_login_at`) VALUES
-(1, 'Administrator', 'Administrator', 'widodo@admin.com', '$2y$10$PMwZVMEZZBWt9Zr378HdOuRgWOdhvt9BOFtFSbM4mCy3y9TcTb6De', 'PaMYdxNKQPUwDjIGGkaRwIUfW3lC7uUcObXatIK7BkVFQU22cvP5ruZPiYbR', 1, 0, 'en', NULL, '2020-11-14 21:29:02', '2020-11-16 06:12:31', '2020-11-16 06:10:11'),
+(1, 'Administrator', 'Administrator', 'widodo@admin.com', '$2y$10$PMwZVMEZZBWt9Zr378HdOuRgWOdhvt9BOFtFSbM4mCy3y9TcTb6De', 'S9kmvoXaLCtDgJULs43olf9d8uPaKpottVcUDQNvFJWmDBtuuCIKTugTLbqU', 1, 0, 'en', '2020-11-19 07:59:38', '2020-11-14 21:29:02', '2020-11-19 07:59:38', '2020-11-19 07:59:02'),
 (2, 'widodo', 'bozid', 'admin@admin.com', '$2y$10$EkBswehCuQs6r3hapf6Xf.ilo3LnHC6SjXMIQM0Qu3Eaocl7Sj2hS', '7krr8UsGl2BARno8fOce9eLzuwrYmiT3H8opPiL85SrcH3nOeuImlTQdm8qS', 1, 0, 'en', '2020-11-15 08:15:10', '2020-11-14 21:42:07', '2020-11-15 08:15:10', '2020-11-15 00:28:47'),
-(3, 'widodo', 'bozid', 'demo@admin.com', '$2y$10$X3Tmjuew5Sb/0y0SXfmOtupqqxjck6SiXXfFq86.gDe5tzr./rBWa', 'wVVMmwHT69Hl7VTqxzQQafbAGp4QAkkgddqJJMeTVV3XgWnEmuCQjwWMfnpm', 1, 0, 'en', NULL, '2020-11-16 06:04:21', '2020-11-16 06:12:33', '2020-11-16 06:12:00');
+(3, 'widodo', 'bozid', 'demo@admin.com', '$2y$10$g4YYqZH/67lyDGuPS2fKo.00gZvsbTigCPt1sCebJ1w.8z2IL.r0a', 'wVVMmwHT69Hl7VTqxzQQafbAGp4QAkkgddqJJMeTVV3XgWnEmuCQjwWMfnpm', 1, 0, 'en', NULL, '2020-11-16 06:04:21', '2020-11-19 08:00:00', '2020-11-19 08:00:00');
 
 -- --------------------------------------------------------
 
